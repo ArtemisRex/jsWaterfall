@@ -3,7 +3,7 @@
 $(function () {
     var canvas = new Canvas($('canvas')[0]),
         waterfall = new Waterfall(canvas),
-        debug = false,
+        debug = true,
         mouseDown = false;
     if (debug) {
         waterfall.update();
